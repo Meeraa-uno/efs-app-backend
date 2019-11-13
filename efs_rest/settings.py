@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'efs_rest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd1b9g3f8mhep83',
-        'USER': 'bovzvrvdoeoyaw',
-        'PASSWORD': 'aff35a3d08154284f5033b79db1fb2db6e7048eb0c127228f1915afd08df5843',
-        'HOST': 'ec2-184-73-169-163.compute-1.amazonaws.com',
+        'NAME': 'de068q8m5ggg1d',
+        'USER': 'iupmloozhmudfb',
+        'PASSWORD': '5a365f59db847342a58e384fd143e41c9ceb8dfa62043ddced9f261d59f82854',
+        'HOST': 'ec2-174-129-252-211.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
@@ -165,9 +165,6 @@ CORS_ORIGIN_WHITELIST = (
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-
-
-
 # Extra places for collectstatic to find static files.
 STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
@@ -192,7 +189,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 # LOGIN_REDIRECT_URL = ''
 LOGOUT_REDIRECT_URL = '/admin'
 # CRISPY_TEMPLATE_PACK = 'bootstrap4'
-
 
 try:
     from .local_settings import *
